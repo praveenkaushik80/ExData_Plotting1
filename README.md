@@ -25,7 +25,7 @@ hist(pwrDT[, Global_active_power], main="Global Active Power",
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 dev.off()
 ```
-![](https://github.com/praveenkaushik80/ExData_Plotting1/plot1.png)
+![](https://github.com/praveenkaushik80/ExData_Plotting1/blob/master/plot1.png)
 ```R
 library("data.table")
 setwd("C:/Users/Prave/Desktop/coursera/EDA")
@@ -47,7 +47,7 @@ plot(x = pwrDT[, dateTime]
      , type="l", xlab="", ylab="Global Active Power (kilowatts)")
 dev.off()
 ```
-![](https://github.com/praveenkaushik80/ExData_Plotting1/plot2.png)
+![](https://github.com/praveenkaushik80/ExData_Plotting1/blob/master/plot2.png)
 ```R
 library("data.table")
 setwd("C:/Users/Prave/Desktop/coursera/EDA")
@@ -73,7 +73,7 @@ legend("topright"
        ,lty=c(1,1), lwd=c(1,1))
 dev.off()
 ```
-![](https://github.com/praveenkaushik80/ExData_Plotting1/plot3.png)
+![](https://github.com/praveenkaushik80/ExData_Plotting1/blob/master/plot3.png)
 ```R
 library("data.table")
 setwd("C:/Users/Prave/Desktop/coursera/EDA")
@@ -107,4 +107,4 @@ legend("topright", col=c("black","red","blue")
 plot(pwrDT[, dateTime], pwrDT[,Global_reactive_power], type="l", xlab="datetime", ylab="Global_reactive_power")
 dev.off()
 ```
-![](https://github.com/praveenkaushik80/ExData_Plotting1/plot4.png)
+![](https://github.com/praveenkaushik80/ExData_Plotting1/blob/master/plot4.png)
